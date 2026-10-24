@@ -1,0 +1,17 @@
+{
+  "worker": "https://avby-source-probe.ipokerby-b02.workers.dev",
+  "cpuVerdict": "NOT_MEASURED_CHECK_CLOUDFLARE_METRICS",
+  "results": [
+    {
+      "at": "2026-10-24T22:34:57.199Z",
+      "requestedPage": 1,
+      "status": 502,
+      "report": {
+        "probeId": "eb10746d-49eb-4bb3-b58f-7af8e175d1b2",
+        "ok": false,
+        "stage": "fetch",
+        "upstreamStatus": 468
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "props": {
+    "initialState": {
+      "filter": {
+        "main": {
+          "page": 1,
+          "pageCount": 4,
+          "count": 76,
+          "nextPage": 2,
+          "initialValue": "brands[0][brand]=6&brands[0][generation]=11854&brands[0][model]=5810&price_currency=2",
+          "adverts": [
+            {
+              "id": 142126228,
+              "publicUrl": "https://cars.av.by/audi/a4/142126228",
+              "year": 2013,
+              "metadata": {
+                "brandId": 6,
+                "modelId": 5810,
+                "generationId": 11854
+              },
+              "properties": [
+                {
+                  "fallbackType": "string",
+                  "value": "Audi",
+                  "id": 2,
+                  "name": "brand"
+                },
+                {
+                  "fallbackType": "string",
+                  "value": "A4",
+                  "id": 3,
+                  "name": "model"
+                },
+                {
+                  "fallbackType": "string",
+                  "value": "B8 · Рестайлинг",
+                  "id": 4,
+                  "name": "generation"
+                },
+                {
+                  "fallbackType": "int",
+                  "value": 235000,
+                  "id": 14,
+                  "name": "mileage_km"
+                }
+              ],
+              "price": {
+                "usd": {
+                  "currency": "usd",
+                  "amount": 11500,
+                  "amountFiat": 11500
+                },
+                "byn": {
+                  "currency": "byn",
+                  "amount": 33974,
+                  "amountFiat": 33974.45
+                },
+                "rub": {
+                  "currency": "rub",
+                  "amount": 931828,
+                  "amountFiat": 931828.03
+                },
+                "eur": {
+                  "currency": "eur",
+                  "amount": 10251,
+                  "amountFiat": 10250.56
+                }
+              },
+              "publishedAt": "2026-10-13T19:10:24+0000",
+              "renewedAt": "2026-10-24T14:49:03+0000",
+              "locationName": "Лида, Гродненская обл.",
+              "photos": [
+                {
+                  "main": true,
+                  "medium": {
+                    "url": "https://avcdn.av.by/advertmedium/0016/1175/4949.jpg"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "properties": {
+        "main": {
+          "propertyMap": {
+            "brands": {
+              "value": [
+                {
+                  "brand": {
+                    "value": {
+                      "id": 6,
+                      "label": "Audi"
+                    },
+                    "options": [
+                      {
+                        "id": 10297,
+                        "label": "Abarth"
+                      },
+                      {
+                        "id": 1444,
+                        "label": "Acura"
+                      }
+                    ]
+                  },
+                  "model": {
+                    "value": {
+                      "id": 5810,
+                      "label": "A4"
+                    },
+                    "options": [
+                      {
+                        "id": 10,
+                        "label": "100"
+                      },
+                      {
+                        "id": 11,
+                        "label": "200"
+                      }
+                    ]
+                  },
+                  "generation": {
+                    "value": {
+                      "id": 11854,
+                      "label": "B8 · Рестайлинг, 2011…2015"
+                    },
+                    "options": [
+                      {
+                        "id": 4992,
+                        "label": "B9 · Рестайлинг, 2019…"
+                      },
+                      {
+                        "id": 4303,
+                        "label": "B9, 2015…2020"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "nested": []
+            }
+          }
+        }
+      }
+    }
+  }
+}

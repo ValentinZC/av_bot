@@ -1,0 +1,23 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "Telegram-бот для подписок на новые объявления av.by",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "cf:prepare": "node scripts/cf-prepare.ts",
+    "cf:install": "npm --prefix cloudflare/probe ci",
+    "cf:login": "npm --prefix cloudflare/probe run login",
+    "cf:build": "npm --prefix cloudflare/probe run build",
+    "cf:deploy": "npm run cf:prepare && npm --prefix cloudflare/probe run deploy",
+    "cf:probe": "node scripts/cf-probe.ts",
+    "bot": "node --env-file-if-exists=.env scripts/bot.ts",
+    "search:av": "node scripts/search-av.ts",
+    "catalog:av": "node scripts/catalog-av.ts",
+    "test": "node --test tests/*.test.ts"
+  },
+  "license": "ISC",
+  "private": true
+}
